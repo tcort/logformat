@@ -1,6 +1,6 @@
 {
-  "name": "logformat",
-  "version": "1.0.6",
+  "name": "tclogformat",
+  "version": "0.0.0",
   "description": "stringify objects into searchable strings",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ssimicro/logformat.git"
+    "url": "git://github.com/tcort/tclogformat.git"
   },
   "keywords": [
     "log",
@@ -20,15 +20,16 @@
     "toString",
     "convert"
   ],
-  "author": "SSi Micro Ltd <propellorheads@ssimicro.com>",
+  "author": "Thomas Cort <linuxgeek@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ssimicro/logformat/issues"
+    "url": "https://github.com/tcort/tclogformat/issues"
   },
-  "homepage": "https://github.com/ssimicro/logformat#readme",
+  "homepage": "https://github.com/tcort/tclogformat#readme",
   "dependencies": {
+    "flat": "^2.0.1",
     "lodash": "^4.17.4",
-    "moment": "^2.17.1"
+    "moment": "^2.18.1"
   },
   "devDependencies": {
     "expect.js": "^0.3.1",
@@ -36,6 +37,7 @@
     "mocha": "^3.2.0"
   },
   "jshintConfig": {
+    "esversion": 6,
     "bitwise": true,
     "curly": true,
     "eqeqeq": true,

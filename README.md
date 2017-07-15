@@ -1,4 +1,4 @@
-# logformat
+# tclogformat
 
 Stringify objects into searchable strings.
 
@@ -31,11 +31,11 @@ This library solves those problems by nicely formatting objects as `key=value` p
 
 ## Installation
 
-    npm install --save logformat
+    npm install --save tclogformat
 
 ## API
 
-### logformat(any)
+### tclogformat(any)
 
 Parameters:
 
@@ -48,12 +48,12 @@ Returns:
 ## Example
 
 ```
-var logformat = require('logformat');
+var tclogformat = require('tclogformat');
 var fs = require('fs');
 
-console.log(logformat(fs.statSync('/dev/null')));
+console.log(tclogformat(fs.statSync('/dev/null')));
 
-// -> 'dev=287613608 mode=8630 nlink=1 uid=0 gid=0 rdev=50331650 blksize=131072 ino=303 size=0 blocks=0'
+// -> 'dev=6 mode=8630 nlink=1 uid=0 gid=0 rdev=259 blksize=4096 ino=1029 size=0 blocks=0 atime=2017-07-12T00:21:34-04:00 mtime=2017-07-12T00:21:34-04:00 ctime=2017-07-12T00:21:34-04:00 birthtime=2017-07-12T00:21:34-04:00'
 ```
 
 ## Testing
@@ -64,4 +64,4 @@ There is an automated test suite:
 
 ## License
 
-See [LICENSE.md](https://github.com/ssimicro/logformat/blob/master/LICENCE.md)
+See [LICENSE.md](https://github.com/tcort/tclogformat/blob/master/LICENCE.md)

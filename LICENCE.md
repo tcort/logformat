@@ -2,6 +2,7 @@ MIT License
 -----------
 
 ```
+Copyright (C) 2017 Thomas Cort
 Copyright (C) 2015, 2016, 2017 SSi Micro, Ltd. and other contributors.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
