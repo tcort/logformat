@@ -27,14 +27,14 @@
   },
   "homepage": "https://github.com/tcort/tclogformat#readme",
   "dependencies": {
-    "flat": "^2.0.1",
-    "lodash": "^4.17.4",
-    "moment": "^2.18.1"
+    "flat": "^4.1.0",
+    "lodash": "^4.17.11",
+    "moment": "^2.22.2"
   },
   "devDependencies": {
     "expect.js": "^0.3.1",
-    "jshint": "^2.9.4",
-    "mocha": "^3.2.0"
+    "jshint": "^2.9.6",
+    "mocha": "^5.2.0"
   },
   "jshintConfig": {
     "esversion": 6,
